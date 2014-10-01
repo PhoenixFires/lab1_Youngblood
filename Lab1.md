@@ -1,11 +1,10 @@
 **Catherine Youngblood**
+
 Lab 01 - CSCI 3155
 
-*Group Members:
-Catherine Dewerd
-Mark Ariniello*
+*Group Members: Catherine Dewerd; Mark Ariniello*
 
-##Problem 1
+###Problem 1
 ####(A)
 
 ***Line 4***: `pi` is bound at **Line 3**. The use of `pi` on **Line 4** occurs within the scope of a function that explicitly defines it, overwriting the original definition of `pi` for the duration of the function.
@@ -18,10 +17,10 @@ Mark Ariniello*
 
 ***Line 13***: `x` is bound at **Line 1**, where the value is created to be passed into the function (outside of the scope of a function)
 
-##Problem 2
+###Problem 2
 The body of `g` is well-typed and has a return type of `((Int, Int), Int)`. 
 
-**Line 2:  **
+**Line 2:**
 ```scala
 (a,b): (Int, (Int,Int)) //because
 	a:Int //(defined as 1)
